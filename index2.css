@@ -1,0 +1,138 @@
+.background{
+	height: 500px;
+	width:70%;
+	margin-left:16%;
+	margin-top: 7%;
+	background-color: #CAFF33;
+	color:blue;
+	border-radius: 10px;
+	}
+body{
+	background-image: url("1.jpg");
+	background-size: cover;	
+}
+
+.player0,.player1{
+		color: #E333FF;
+		font-weight: bolder;
+		font-size: 40px;
+		font-family: 'Modak', cursive;
+		top:25%;
+	}
+.player0{
+position: absolute;
+
+left:25%;
+}
+.player1{
+position: absolute;
+
+left:60%;
+}
+.score0,.score1{
+	font-style: normal;
+	font-size: 65px;
+	top: 38%;
+	
+}
+.score0{
+	position: absolute;
+	left: 30%;
+}
+.score1{
+	position: absolute;
+	left:64%; 
+}
+.holdbutton,.rollbutton{
+
+	
+	left:45%;
+	border: none;
+	font-weight: : bolder;
+	background:none;
+	font-size: 23px;
+	text-transform: uppercase;
+	font-family: lato;
+
+
+
+}
+.rollbutton{
+	position: absolute;
+		max-width: 20%;
+	
+	top: 68%;
+	
+}
+button:focus {
+    outline: none;
+}
+.rollbutton:hover{
+	color: #334FFF;
+	cursor: pointer;
+	padding-right:70px;
+}
+.holdbutton:hover{
+	color: #334FFF;
+	cursor: pointer;
+	padding-right:50px;
+}
+.holdbutton{
+	position: absolute;
+	max-width: 40%;
+	top: 76%;
+}
+.diceimg{
+	position: absolute;
+	max-width: 15%;
+	max-height: 15%;
+	left:45%;
+	top: 30%;
+}
+
+.newgame{
+	position: absolute;
+	top: 20%;
+	font-family: 'Varela Round', sans-serif;;
+	left:44%;
+	font-size: 25px;
+	background: none;
+	border: none;
+}
+.newgame:hover{
+	cursor: pointer;
+	color:white;
+}
+.current0,.current1{
+	text-transform: uppercase;
+	font-size: 17px;
+	position: absolute;
+	top:65%;
+	background-color: #FF9C33;
+	padding-bottom: 65px;
+	padding-left: 13px;
+	padding-right: 10px;
+	padding-top: 5px;
+	border-radius: 5px;
+}
+.current0{
+	left:27%;
+}
+.current1{
+	left:63%;
+	
+}
+.currentscore0{
+	position: absolute;
+	left:30%;
+	top:70%;
+	font-size: 20px;
+	color:white;
+	}
+.currentscore1{
+	position: absolute;
+	left:66%;
+	top:70%;
+	font-size: 20px;
+	color:white;
+}
